@@ -1,11 +1,12 @@
 let resultado
+
+let operação = prompt("digite uma operação: adição = +; subtração = -; multiplicação = *; divisão = /")
+
 let valor1 = prompt("digite o primeiro valor")
 let valor2 = prompt("digite o segundo valor")
 
 valor1 = Number(valor1)
 valor2 = Number(valor2)
-
-let operação = prompt("digite uma operação: adição = +; subtração = -; multiplicação = *; divisão = /")
 
 if (operação == "+") {
     resultado = valor1 + valor2
