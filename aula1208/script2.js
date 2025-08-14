@@ -18,6 +18,8 @@ console.log("O segundo filme é "+ filme2.nome +" com a nota "+ filme2.nota)
 
 if(filme1.nota > filme2.nota){
     console.log("O filme "+ filme1.nome +" tem a maior nota")
+} else if(filme2.nota == filme1.nota) {
+    console.log("Os filmes "+ filme1.nome +" e "+ filme2.nome +" tem notas iguais")
 } else {
     console.log("O filme "+ filme2.nome +" tem a maior nota")
 }
